@@ -68,6 +68,11 @@ import os
 os.environ["KAGGLE_USERNAME"] = "your_username"
 os.environ["KAGGLE_KEY"]      = "your_api_key"
 
----
-
 *Data preparation stage only — modelling is handled separately.*
+
+## Notebooks
+
+| Notebook | Description |
+|---|---|
+| [Churn_ML_Pipeline.ipynb](./Churn_ML_Pipeline.ipynb) | Full pipeline — Ingest → Transformation → Feature Engineer → Split → Save |
+| [Polars_vs_Pandas_Demo.ipynb](./Polars_vs_Pandas_Demo.ipynb) | Polars vs Pandas · Lazy vs eager execution · Vectorized benchmarks |
